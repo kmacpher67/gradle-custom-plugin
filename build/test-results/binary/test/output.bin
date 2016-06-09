@@ -1,3 +1,11 @@
-project.tasks is...:[]
+ TESTING first taskbuild
+) GreetingPlugin apply for demo-time!!!!
+' making the build task depend on demo
+COMPILE compiledependencySet
+ AFTER add ing goodies
+COMPILE compiledependencySet
+Kdependency get Group()=org.projectlombok : Name=lombok : Version()=1.16.8
+' It is DONE!! The magic has started. 
+project.tasks build is...:0
 task.name=demo
-êtask.actions=[org.gradle.api.internal.AbstractTask$TaskActionWrapper@44c8beb, org.gradle.api.internal.AbstractTask$TaskActionWrapper@1dcc699c]
+ètask.actions=[org.gradle.api.internal.AbstractTask$TaskActionWrapper@253f7ac, org.gradle.api.internal.AbstractTask$TaskActionWrapper@a57f70e]

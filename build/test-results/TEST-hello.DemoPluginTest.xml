@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.DemoPluginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-06-09T00:55:49" hostname="YY029646" time="1.152">
+<testsuite name="hello.DemoPluginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-06-09T20:54:48" hostname="YY029646" time="1.227">
   <properties/>
-  <testcase name="demo_plugin_should_add_task_to_project" classname="hello.DemoPluginTest" time="1.152"/>
-  <system-out><![CDATA[project.tasks is...:[]
+  <testcase name="demo_plugin_should_add_task_to_project" classname="hello.DemoPluginTest" time="1.227"/>
+  <system-out><![CDATA[ TESTING first taskbuild
+ GreetingPlugin apply for demo-time!!!!
+ making the build task depend on demo
+COMPILE compiledependencySet
+ AFTER add ing goodies
+COMPILE compiledependencySet
+dependency get Group()=org.projectlombok : Name=lombok : Version()=1.16.8
+ It is DONE!! The magic has started. 
+project.tasks build is...:0
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

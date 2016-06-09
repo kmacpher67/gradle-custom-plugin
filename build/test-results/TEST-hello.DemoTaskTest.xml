@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.DemoTaskTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-06-09T00:55:50" hostname="YY029646" time="0.073">
+<testsuite name="hello.DemoTaskTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-06-09T20:54:49" hostname="YY029646" time="0.073">
   <properties/>
   <testcase name="should_be_able_to_add_task_to_project" classname="hello.DemoTaskTest" time="0.073"/>
   <system-out><![CDATA[task.name=demo
-task.actions=[org.gradle.api.internal.AbstractTask$TaskActionWrapper@44c8beb, org.gradle.api.internal.AbstractTask$TaskActionWrapper@1dcc699c]
+task.actions=[org.gradle.api.internal.AbstractTask$TaskActionWrapper@253f7ac, org.gradle.api.internal.AbstractTask$TaskActionWrapper@a57f70e]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

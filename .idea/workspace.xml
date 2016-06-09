@@ -38,7 +38,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" afterPath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" afterPath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/poms/pom-default.xml" afterPath="$PROJECT_DIR$/build/poms/pom-default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/classes/hello.DemoPluginTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/classes/hello.DemoPluginTest.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/classes/hello.DemoTaskTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/classes/hello.DemoTaskTest.html" />
@@ -46,8 +45,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/packages/hello.html" afterPath="$PROJECT_DIR$/build/reports/tests/packages/hello.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/TEST-hello.DemoPluginTest.xml" afterPath="$PROJECT_DIR$/build/test-results/TEST-hello.DemoPluginTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/TEST-hello.DemoTaskTest.xml" afterPath="$PROJECT_DIR$/build/test-results/TEST-hello.DemoTaskTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greetingPlugin.iml" afterPath="$PROJECT_DIR$/greetingPlugin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hello/GreetingPlugin.java" afterPath="$PROJECT_DIR$/src/main/java/hello/GreetingPlugin.java" />
     </list>
     <ignored path="gs-plugin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1655,7 +1652,7 @@
       <updated>1465424460299</updated>
       <workItem from="1465424463449" duration="29248000" />
       <workItem from="1465506426491" duration="29000" />
-      <workItem from="1465506607115" duration="1933000" />
+      <workItem from="1465506607115" duration="1982000" />
     </task>
     <task id="LOCAL-00001" summary="broken error writing archives pom-default.xml">
       <created>1465506123659</created>
@@ -1663,7 +1660,13 @@
       <option name="project" value="LOCAL" />
       <updated>1465506123659</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="working happy now!">
+      <created>1465508589141</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1465508589141</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1699,14 +1702,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31210000" />
+    <option name="totallyTimeSpent" value="31259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-1089" width="1938" height="1098" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1728,7 +1732,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1776,7 +1779,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="broken error writing archives pom-default.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="broken error writing archives pom-default.xml" />
+    <MESSAGE value="working happy now!" />
+    <option name="LAST_COMMIT_MESSAGE" value="working happy now!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

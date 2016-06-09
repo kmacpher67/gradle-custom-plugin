@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MongoConfiguration">
+    <option name="serverConfigurations">
+      <list>
+        <ServerConfiguration>
+          <option name="label" value="LocalHost" />
+          <option name="serverUrls">
+            <list>
+              <option value="localhost:27017" />
+            </list>
+          </option>
+        </ServerConfiguration>
+        <ServerConfiguration>
+          <option name="label" value="mongo-chimay.cdpri.com:27017" />
+          <option name="password" value="BlueSapphir3" />
+          <option name="serverUrls">
+            <list>
+              <option value="mongo-chimay.cdpri.com:27017" />
+            </list>
+          </option>
+          <option name="username" value="priMongoAdmin" />
+        </ServerConfiguration>
+      </list>
+    </option>
+  </component>
+</project>

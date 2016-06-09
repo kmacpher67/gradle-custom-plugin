@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.DemoPluginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-06-09T00:55:49" hostname="YY029646" time="1.152">
+  <properties/>
+  <testcase name="demo_plugin_should_add_task_to_project" classname="hello.DemoPluginTest" time="1.152"/>
+  <system-out><![CDATA[project.tasks is...:[]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

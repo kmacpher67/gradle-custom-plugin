@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.DemoPluginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-06-09T20:54:48" hostname="YY029646" time="1.227">
+<testsuite name="hello.DemoPluginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-06-09T21:38:55" hostname="YY029646" time="1.174">
   <properties/>
-  <testcase name="demo_plugin_should_add_task_to_project" classname="hello.DemoPluginTest" time="1.227"/>
+  <testcase name="demo_plugin_should_add_task_to_project" classname="hello.DemoPluginTest" time="1.174"/>
   <system-out><![CDATA[ TESTING first taskbuild
  GreetingPlugin apply for demo-time!!!!
  making the build task depend on demo
@@ -9,6 +9,15 @@ COMPILE compiledependencySet
  AFTER add ing goodies
 COMPILE compiledependencySet
 dependency get Group()=org.projectlombok : Name=lombok : Version()=1.16.8
+dependency get Group()=org.springframework.boot : Name=spring-boot-starter-test : Version()=1.3.2.RELEASE
+dependency get Group()=org.springframework.boot : Name=spring-boot-starter-web : Version()=1.3.2.RELEASE
+dependency get Group()=org.springframework : Name=spring-beans : Version()=4.2.4.RELEASE
+dependency get Group()=org.springframework : Name=spring-core : Version()=4.2.4.RELEASE
+dependency get Group()=org.springframework : Name=spring-test : Version()=4.2.4.RELEASE
+dependency get Group()=org.springframework : Name=spring-webmvc : Version()=4.2.4.RELEASE
+dependency get Group()=org.springframework : Name=spring-web : Version()=4.2.4.RELEASE
+dependency get Group()=com.jayway.jsonpath : Name=json-path : Version()=2.0.0
+dependency get Group()=com.jayway.jsonpath : Name=json-path-assert : Version()=2.0.0
  It is DONE!! The magic has started. 
 project.tasks build is...:0
 ]]></system-out>

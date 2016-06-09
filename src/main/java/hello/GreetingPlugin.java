@@ -35,7 +35,21 @@ public class GreetingPlugin implements Plugin<Project> {
         showDependencies(compileConfiguration);
         //"org.projectlombok:lombok:1.16.8"
         Dependency dependency = new DefaultExternalModuleDependency("org.projectlombok", "lombok", "1.16.8", "compile");
+//        Dependency dependency2 = new DefaultExternalModuleDependency("org.springframework.boot", "spring-boot-starter-test", "1.3.2.RELEASE", "compile");
+//        Dependency dependency3 = new DefaultExternalModuleDependency("org.springframework.boot", "spring-boot-starter-web", "1.3.2.RELEASE", "compile");
+
         compileConfiguration.getDependencies().add(dependency);
+        compileConfiguration.getDependencies().add( new DefaultExternalModuleDependency("org.springframework.boot", "spring-boot-starter-test", "1.3.2.RELEASE", "compile"));
+        compileConfiguration.getDependencies().add(new DefaultExternalModuleDependency("org.springframework.boot", "spring-boot-starter-web", "1.3.2.RELEASE", "compile"));
+        compileConfiguration.getDependencies().add(new DefaultExternalModuleDependency("org.springframework", "spring-beans", "4.2.4.RELEASE", "compile"));
+        compileConfiguration.getDependencies().add(new DefaultExternalModuleDependency("org.springframework", "spring-core", "4.2.4.RELEASE", "compile"));
+        compileConfiguration.getDependencies().add(new DefaultExternalModuleDependency("org.springframework", "spring-test", "4.2.4.RELEASE", "compile"));
+        compileConfiguration.getDependencies().add(new DefaultExternalModuleDependency("org.springframework", "spring-webmvc", "4.2.4.RELEASE", "compile"));
+        compileConfiguration.getDependencies().add(new DefaultExternalModuleDependency("org.springframework", "spring-web", "4.2.4.RELEASE", "compile"));
+        compileConfiguration.getDependencies().add(new DefaultExternalModuleDependency("com.jayway.jsonpath", "json-path", "2.0.0", "compile"));
+        compileConfiguration.getDependencies().add(new DefaultExternalModuleDependency("com.jayway.jsonpath", "json-path-assert", "2.0.0", "compile"));
+
+
         System.out.println(" AFTER add ing goodies");
         showDependencies(compileConfiguration);
         System.out.println(" It is DONE!! The magic has started. ");
